@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Project Details</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center ">
+    <div class="container d-flex justify-content-between align-items-center">
+
+      <div class="logo">
+        <h1 class="text-light"><a href="index.html"><span>Aidan</span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="" href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="service.html">Services</a></li>
+          <li><a class="active" href="project.html">Projects</a></li>
+          <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Our Portfolio Section ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Company Churn – Predictive Model & Strategic Planning</h2>
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="project.html">Project</a></li>
+            <li>Project Details</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Our Portfolio Section -->
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/pred.jpeg" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/one.png" alt="">
+                </div>
+                
+                <div class="swiper-slide">
+                    <img src="assets/img/two.png" alt="">
+                  </div>
+                  
+                
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong>: Data Science, Predictive modeling</li>
+                <li><strong>Client</strong>: Telecommunications</li>
+                <li><strong>Project date</strong>: 18 February, 2024</li>
+                <li><strong>Project URL</strong>: <a href="https://github.com/Aidanszwec/Portfolio-/tree/main/Telco Churn Predictive Model">https://github.com/Aidanszwec/Portfolio</a></li>
+              </ul>
+            </div>
+            <div class="portfolio-description">
+              <h2>Primary Goal:</h2>
+              <p> This project uses a dataset from a Phone Provider company the main objective is to highlight the variables associated with churn after finding what variables are most correlated with higher churn rates we make a predictive model to further prove the variables that are most correlated with churn then finally develop strategies to prevent churn based on the analysis.              </p>
+            </div>
+          </div>
+
+        </div>
+        <br>
+        <div class="row">
+          <h2>Why is this useful:</h2>
+          <p>
+            By identifying variables that are responsible for churn we can formulate a strategic plan to implement necessary changes in the business to improve customer retention - Repeat customers spend 67% more than new customers (BIA Advisory Services)          </p>
+          <h2>Data Overview:</h2>
+          <p>
+            A variety of variables involved with churning including the types of services provided by the company, customer demographics, and reported churn statistics.          </p>
+          <h2>Methodology:</h2>
+            <ul class="mx-4">
+              <li><i class="bi bi-check2-circle"></i> 1.	Data Reading</li>
+              <p>importing the CSV file and displaying the variables</p>
+              <li><i class="bi bi-check2-circle"></i> 2.	Data Cleaning</li>
+              <p>This particular data had already been cleaned, we checked for null values, missing columns, duplicate values, etc.</p>
+              <li><i class="bi bi-check2-circle"></i> 3.	EDA </li>
+              <p>Typically this section would be longer, but we already had an idea of the variables that would contribute to churning. The main goal was to get an idea of what variables had the greatest correlation with the churn rates for this company. We demonstrate this in a variety of different plots.</p>
+              <li><i class="bi bi-check2-circle"></i> 4.	Feature Engineering </li>
+              <p>Now, computers are really good at understanding numbers, but they can struggle with categories. So, before we can use this data to make predictions (like whether a customer will churn or not), we need to convert these categories into a format that a computer can understand. This is where one-hot encoding comes in.
+                One-hot encoding is a process of converting categorical data into a format that works better with classification and regression algorithms. It creates new binary columns for each category/label present in the original columns.
+                So, in this project, I used one-hot encoding to convert features like ‘TechSupport’, ‘DeviceProtection’, ‘InternetService’, ‘OnlineSecurity’, ‘PaymentMethod’, and ‘Contract’ into a format that your predictive model can understand.</p>
+              <li><i class="bi bi-check2-circle"></i> 5.	Predictive Model Building </li>
+              <p>In this project, we implemented a Logistic Regression model to predict customer churn for a phone service company. The main goal was to identify the key factors that influence customer churn and use this information to predict whether a customer is likely to churn.
+                Logistic Regression was chosen for this task due to its simplicity and interpretability. It not only provides a prediction but also quantifies the influence of each feature on the likelihood of churn. This allows us to understand which aspects of the service are most strongly associated with customer churn.
+                By predicting churn, the company can proactively address customer concerns, improve customer satisfaction, and ultimately reduce churn. This can lead to significant cost savings, as retaining existing customers is often more cost-effective than acquiring new ones.</p>
+              <li><i class="bi bi-check2-circle"></i> 6.	Results From Predictions & Suggestions </li>
+              <p>Lastly, we take the insights from the predictive model and formulate them into visual, and actionable insights for the company to implement to reduce churn.</p>
+    </section><!-- End Portfolio Details Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+<footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+
+  <div class="footer-newsletter">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h4>Our Newsletter</h4>
+          <p>Consider joining the Newsletter for updates in utilizing your data for optimal business performance.</p>
+        </div>
+        <div class="col-lg-6">
+          <form action="" method="post">
+            <a href="https://aidansdata.substack.com/"><input type="email" name="email"><input type="submit" value="Subscribe"></a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Predictive Analysis</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Data Backed Consultation</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Churn predictions</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Patent testing & planning</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Directed marketing</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-contact">
+          <h4>Contact Me</h4>
+          <p>
+            <strong>Email:</strong> aidanszwec@gmail.com<br>
+          </p>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-info">
+          <h3>About Aidan</h3>
+          <p>Independent Data Scientist. I'm a firm believer that every company has the potential to make actionable insights with data they already have. By implementing a variety of unique solutions ranging from predictive analytics, visualizations & dashboard creation, to direct consults, I'll make your data tangible.</p>
+          <div class="social-links mt-3">
+            <a href="https://twitter.com/AidanSzwec" class="twitter"><i class="bx bxl-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/aidanszwec" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="copyright">
+      &copy; Copyright <strong><span>Aidan</span></strong>. All Rights Reserved
+    </div>
+    </div>
+  </div>
+</footer><!-- End Footer -->
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
