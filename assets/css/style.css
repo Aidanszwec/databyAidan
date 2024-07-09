@@ -53,7 +53,7 @@ h6,
 }
 
 .back-to-top:hover {
-  background: #85b6cf;
+  background: #1b465b;
   color: #fff;
 }
 
@@ -349,7 +349,7 @@ h6,
   top: 0;
   width: 130%;
   height: 95%;
-  background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../img/hero-bg.jpg") center top no-repeat;
+  background: linear-gradient(to right, rgba(8, 53, 75, 0.8), rgba(9, 47, 66, 0.6)), url("") center top no-repeat;
   z-index: 0;
   border-radius: 0 0 50% 50%;
   transform: translateX(-50%) rotate(0deg);
@@ -362,7 +362,7 @@ h6,
   top: 0;
   width: 130%;
   height: 96%;
-  background: #68A4C4;
+  background: #06212e;
   opacity: 0.3;
   z-index: 0;
   border-radius: 0 0 50% 50%;
@@ -412,7 +412,7 @@ h6,
 #hero .btn-get-started {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 17px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 32px;
@@ -422,11 +422,11 @@ h6,
   margin: 10px;
   color: #fff;
   animation-delay: 0.8s;
-  border: 2px solid #68A4C4;
+  border: 2px solid #09344b;
 }
 
 #hero .btn-get-started:hover {
-  background: #68A4C4;
+  background: #09344b;
   color: #fff;
   text-decoration: none;
 }
@@ -501,7 +501,7 @@ h6,
   top: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../img/hero-bg.jpg") center top no-repeat;
+  background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../img/gear.png") center top no-repeat;
 }
 
 #hero-no-slider h2 {
@@ -935,7 +935,7 @@ section {
 }
 
 .about ul i {
-  font-size: 20px;
+  font-size: 25px;
   padding-right: 4px;
   color: #68A4C4;
 }
@@ -957,7 +957,7 @@ section {
   padding: 0;
   margin: 0 0 20px 0;
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 /*--------------------------------------------------------------
@@ -1106,13 +1106,32 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   margin-top: -60px;
   transition: 0.3s;
+  text-align: left; /* Adjust alignment as needed */
 }
 
 .service-details .card-title {
   font-weight: 700;
-  text-align: center;
+  text-align: center; /* Center align title */
   margin-bottom: 20px;
 }
+
+.service-details ul {
+  list-style-type: none; /* Remove default list styles */
+  padding: 0;
+  margin: 0;
+  text-align: left; /* Adjust alignment of list items */
+}
+
+.service-details ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Adjust spacing between list items */
+}
+
+.service-details ul li i {
+  margin-right: 10px; /* Adjust spacing between icon and text */
+}
+
 
 .service-details .card-title a {
   color: #1e4356;
@@ -1121,7 +1140,10 @@ section {
 
 .service-details .card-text {
   color: #5e5e5e;
+  text-align: left; /* Adjust alignment as needed */
+  line-height: 1.6; /* Optional: Adjust line height for better readability */
 }
+
 
 .service-details .read-more a {
   color: #777777;
@@ -1129,6 +1151,7 @@ section {
   font-weight: 600;
   font-size: 12px;
   transition: 0.3s;
+  text-align: left; /* Adjust alignment as needed */
 }
 
 .service-details .read-more a:hover {
