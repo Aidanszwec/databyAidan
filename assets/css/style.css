@@ -2602,34 +2602,38 @@ section {
   text-align: center;
 }
 
-.info-boxes {
+
+.contact-info-boxes {
   display: flex;
-  flex-direction: column;
-  gap: 20px; /* Space between the boxes */
+  flex-direction: column;  /* Align items vertically */
+  align-items: center;     /* Center items horizontally */
+  justify-content: center;  /* Center items vertically */
+  gap: 20px;               /* Space between the boxes */
+  margin: 40px 0;         /* Margin for spacing above and below */
 }
 
 .info-box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-  border-radius: 10px;
-  background-color: #f8f9fa; /* Light background color */
-  text-decoration: none; /* Remove underline */
-  color: inherit; /* Inherit text color */
-  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
-  text-align: center; /* Center text */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for 3D effect */
+  display: flex;           /* Use flexbox for inner alignment */
+  flex-direction: column;  /* Align icon and text vertically */
+  align-items: center;     /* Center content horizontally */
+  justify-content: center;  /* Center content vertically */
+  background-color: #f9f9f9; /* Light background for the boxes */
+  border-radius: 8px;      /* Rounded corners */
+  padding: 30px;           /* Padding inside the boxes */
+  text-decoration: none;    /* Remove underline from links */
+  color: #333;             /* Text color */
+  width: 100%;             /* Full width of the parent */
+  max-width: 400px;        /* Maximum width for the boxes */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Shadow for 3D effect */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effect */
 }
 
 .info-box:hover {
-  background-color: #e2e6ea; /* Darker background on hover */
-  transform: scale(1.05); /* Slightly increase size on hover */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
+  transform: translateY(-5px); /* Slightly lift the box on hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
 }
 
 .info-box i {
-  font-size: 40px; /* Icon size */
-  margin-bottom: 10px; /* Space between icon and text */
+  font-size: 2.5em;          /* Increase icon size */
+  margin-bottom: 10px;       /* Space between icon and text */
 }
