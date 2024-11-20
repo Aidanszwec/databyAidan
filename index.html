@@ -38,7 +38,7 @@
     <div class="container d-flex justify-content-between align-items-center">
 
       <div class="logo">
-        <h1 class="text-light"><a href="index.html"><span>GearShift</span></a></h1>
+        <h1 class="text-light"><a href="index.html"><span>Aidan's Work</span></a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
@@ -47,8 +47,8 @@
         <ul>
           <li><a class="active " href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="service.html">Services</a></li>
           <li><a href="project.html">Projects</a></li>
+          <li><a class="active" href="service.html">My Music</a></li>
           <li><a href="contact.html">Contact Me</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -57,34 +57,45 @@
     </div>
   </header><!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex justify-content-center align-items-center">
-    <div id="heroCarousel" class="container carousel carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+<!-- ======= Hero Section ======= -->
+<section id="hero" class="d-flex justify-content-center align-items-center">
+  <div id="heroCarousel" class="container carousel carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
 
-      <!-- Slide 1 -->
-      <div class="carousel-item active">
-        <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown mainHeading">Hey,<span> I'm Aidan</span></h2>
-          <p class="smaller-text animate__animated animate__fadeInUp">I build automation tools to increase automotive
-            dealership efficiency by double.</p>
-          <a href="https://calendly.com/aidanszwec/coffee-chat?back=1&month=2024-03"
-            class="btn-get-started animate__animated animate__fadeInUp">Get in Touch</a>
-        </div>
-      </div>
-
-      <!-- Slide 2 -->
-      <div class="carousel-item">
-        <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown mainHeading">Founder of <span>GearShift</span></h2>
-          <p class="smaller-text animate__animated animate__fadeInUp">Shifting gears in the automotive industry through
-            automation and data solutions. Currently developing the GearShift LLM to make car buying easier and more
-            efficient.</p>
-          <a href="https://calendly.com/aidanszwec/coffee-chat?back=1&month=2024-03"
-            class="btn-get-started animate__animated animate__fadeInUp mainBtn">Get in Touch</a>
-        </div>
+    <!-- Slide 1 -->
+    <div class="carousel-item active">
+      <div class="carousel-container">
+        <h2 class="animate__animated animate__fadeInDown mainHeading">Hey,<span> I'm Aidan</span></h2>
+        <p class="smaller-text animate__animated animate__fadeInUp">I use data to make systems work more effciently</p>
+        <a href="https://calendly.com/aidanszwec/coffee-chat?back=1&month=2024-03" class="btn-get-started animate__animated animate__fadeInUp">Let's Chat!</a>
       </div>
     </div>
-  </section>
+
+    <!-- Slide 2 -->
+    <div class="carousel-item">
+      <div class="carousel-container">
+        <h2 class="animate__animated animate__fadeInDown mainHeading">
+          Currently <span>...</span>
+        </h2>
+        <p class="smaller-text animate__animated animate__fadeInUp">
+          <span>⚙️ Developing automation solutions for auto dealerships</span><br>
+          <span>📊 Designing my next data project</span><br>
+          <span>🎸 Making music</span>
+        </p>
+        <a href="https://calendly.com/aidanszwec/coffee-chat?back=1&month=2024-03" class="btn-get-started animate__animated animate__fadeInUp mainBtn">
+          Let's Chat!
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  </a>
+
+  <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  </a>
+</section>
 
 
 
@@ -124,41 +135,6 @@
   </head>
 
   <body>
-    <!-- ======= Why Us Section ======= -->
-    <section class="col-lg-7 mx-auto why-us " data-aos="fade-up" data-aos-delay="200">
-      <div class="container">
-        <div class="row mx-auto">
-          <div class="col-lg-7">
-            <div class="sectionTextWraper">
-              <h2>Saving Time with Automation</h2>
-              Streamlining Dealership Customer Interactions. </p>
-              <h3>Automation Solutions
-
-              </h3>
-              <ul>
-                <li><i class="check2-circle"></i> Custom automations for your dealership
-                </li>
-                <li><i class="check2-circle"></i> Enhanced customer engagement</li>
-                <li><i class="check2-circle"></i> 2X Dealership Opperations</li>
-              </ul>
-              <h3>GearShift LLM Development</h3>
-              <ul>
-                <li><i class="check2-circle"></i> Connect dealers with a smart AI assistant for car matching</li>
-                <li><i class="check2-circle"></i> Assist users in answering important car buying questions</li>
-                <li><i class="check2-circle"></i> Pass information of qualified buyers directly to dealers with the
-                  matching car</li>
-              </ul>
-
-            </div>
-          </div>
-          <div class="col-lg-5 ">
-            <div class="whyusImg">
-              <img src="assets/img/gear.png" class="img-fluid gearImg" alt="">
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> 
  
     <!-- ======= Features Section ======= -->
     <section class="features">
@@ -278,84 +254,7 @@
 
     </main><!-- End #main -->
 
-    <!-- ======= Footer ======= -->
-    <footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
-
-      <div class="footer-newsletter">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 ">
-              <h4>Our Newsletter</h4>
-              <p>Consider joining the Newsletter for updates in utilizing your data for optimal business performance.
-              </p>
-            </div>
-            <div class="col-lg-6">
-              <form action="" method="post">
-                <a href="https://aidansdata.substack.com/"><input type="email" name="email"><input type="submit"
-                    value="Subscribe"></a>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="footer-top">
-        <div class="container">
-          <div class="row">
-
-            <div class="col-lg-3 col-md-6 footer-links">
-              <h4>Useful Links</h4>
-              <ul>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-              </ul>
-            </div>
-
-            <div class="col-lg-3 col-md-6 footer-links">
-              <h4>Our Services</h4>
-              <ul>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Predictive Analysis</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Data Backed Consultation</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Churn predictions</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Patent testing & planning</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Directed marketing</a></li>
-              </ul>
-            </div>
-
-            <div class="col-lg-3 col-md-6 footer-contact">
-              <h4>Contact Me</h4>
-              <p>
-                <strong>Email:</strong> aidanszwec@gmail.com<br>
-              </p>
-
-            </div>
-
-            <div class="col-lg-3 col-md-6 footer-info">
-              <h3>About Aidan</h3>
-              <p>Independent Data Scientist. I'm a firm believer that every company has the potential to make actionable
-                insights with data they already have. By implementing a variety of unique solutions ranging from
-                predictive analytics, visualizations & dashboard creation, to direct consults, I'll make your data
-                tangible.</p>
-              <div class="social-links mt-3">
-                <a href="https://twitter.com/AidanSzwec" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="https://www.linkedin.com/in/aidanszwec" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-      <div class="container">
-        <div class="copyright">
-          &copy; Copyright <strong><span>Aidan</span></strong>. All Rights Reserved
-        </div>
-      </div>
-    </footer><!-- End Footer -->
-
+    
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
         class="bi bi-arrow-up-short"></i></a>
 

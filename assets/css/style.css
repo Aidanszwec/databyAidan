@@ -2585,3 +2585,51 @@ section {
       border-bottom-left-radius: 20px;
 }
 }
+/* Increase the font size of the text */
+.smaller-text {
+  font-size: 1.3rem; /* Adjust this value as needed */
+  line-height: 1.2; /* Adjust line height for better spacing */
+}
+
+/* Optional: Center the text if needed */
+.carousel-container {
+  text-align: center; /* Center the text */
+}
+
+.smaller-text span {
+  display: block;
+  margin-left: 5px; /* adjust the margin to your liking */
+  text-align: center;
+}
+
+.info-boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Space between the boxes */
+}
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f8f9fa; /* Light background color */
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit text color */
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  text-align: center; /* Center text */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for 3D effect */
+}
+
+.info-box:hover {
+  background-color: #e2e6ea; /* Darker background on hover */
+  transform: scale(1.05); /* Slightly increase size on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
+}
+
+.info-box i {
+  font-size: 40px; /* Icon size */
+  margin-bottom: 10px; /* Space between icon and text */
+}
