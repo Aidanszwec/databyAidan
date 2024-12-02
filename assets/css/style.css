@@ -2637,3 +2637,29 @@ section {
   font-size: 2.5em;          /* Increase icon size */
   margin-bottom: 10px;       /* Space between icon and text */
 }
+
+.profImg, .mtnImg {
+  border-radius: 15px; /* Rounding corners */
+  max-width: 70%; /* Adjust width as necessary */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Ensure image is a block element */
+  margin: 0 auto; /* Center the image */
+  overflow: hidden; /* Ensure corners are rounded */
+}
+
+/* Add margin to create space between images */
+.profImg {
+  margin-bottom: 20px; /* Adjust this value to create space below the profile image */
+}
+
+.mtnImg {
+  margin-top: 20px; /* Adjust this value to create space above the mountain image */
+}
+
+.guitarImg {
+  border-radius: 15px; /* Rounding corners */
+  max-width: 60%; /* Adjust width as necessary, 100% to fit the container */
+  height: 70%; /* Maintain aspect ratio */
+  display: block; /* Ensure image is a block element */
+  margin: 20px auto; /* Center the image and add vertical spacing */
+}
