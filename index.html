@@ -29,6 +29,16 @@
 
   <!--  Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <style>
+    .carousel-container {
+      text-align: center;
+    }
+    .bullet-points {
+      text-align: left;
+      display: inline-block;
+      margin: 0 auto;
+    }
+  </style>
 </head>
 
 <body>
@@ -65,7 +75,7 @@
     <div class="carousel-item active">
       <div class="carousel-container">
         <h2 class="animate__animated animate__fadeInDown mainHeading">Hey,<span> I'm Aidan</span></h2>
-        <p class="smaller-text animate__animated animate__fadeInUp">I use data to make systems work more effciently</p>
+        <p class="smaller-text animate__animated animate__fadeInUp">I see problems as an opportunity to build solutions</p>
         <a href="https://calendly.com/aidanszwec/coffee-chat?back=1&month=2024-03" class="btn-get-started animate__animated animate__fadeInUp">Let's Chat!</a>
       </div>
     </div>
@@ -76,9 +86,9 @@
         <h2 class="animate__animated animate__fadeInDown mainHeading">
           Currently <span>...</span>
         </h2>
-        <p class="smaller-text animate__animated animate__fadeInUp">
+        <p class="smaller-text animate__animated animate__fadeInUp bullet-points">
           <span>⚙️ Developing automation solutions for auto dealerships</span><br>
-          <span>📊 Designing my next data project</span><br>
+          <span>📊 Building Fullstack web apps </span><br>
           <span>🎸 Making music</span>
         </p>
         <a href="https://calendly.com/aidanszwec/coffee-chat?back=1&month=2024-03" class="btn-get-started animate__animated animate__fadeInUp mainBtn">
@@ -110,6 +120,94 @@
 
   </div>
   </section><!-- End Hero -->
+
+  <style>
+    .summary-section {
+      padding: 60px 0;
+      background-color: #f8f9fa;
+    }
+    .summary-section .container {
+      max-width: 1140px;
+      padding-right: 15px;
+      padding-left: 45px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .summary-box {
+      padding: 20px;
+      height: 100%;
+    }
+    .summary-box h3 {
+      text-align: left;
+      margin-bottom: 20px;
+    }
+    .summary-box ul li {
+      margin-bottom: 15px;
+      display: flex;
+      align-items: start;
+    }
+    .summary-box i {
+      margin-right: 10px;
+      color: #68A4C4;
+      flex-shrink: 0;
+    }
+  </style>
+  
+  <!-- ======= Summary Section ======= -->
+  <section class="summary-section">
+    <div class="container" data-aos="fade-up">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="summary-box">
+            <h3 style="color: #1e4356; margin-bottom: 20px;">The Now</h3>
+            <ul style="list-style: none; padding-left: 0;">
+              <li>
+                <i class="bi bi-arrow-right-circle"></i>
+                Developing GearShift my passion Project to improve communication flow from customer to business at dealerships 
+              </li>
+              <li>
+                <i class="bi bi-arrow-right-circle"></i>
+                Building Modern Guitar - a fullstack platform for guitarists that has a comprehensive database of songs, chords, and jam tracks
+              </li>
+              <li>
+                <i class="bi bi-arrow-right-circle"></i>
+                Finishing up my final year as a Information Sciences Major at the University of Illinois Urbana-Champaign
+              </li>
+              <li>
+                <i class="bi bi-arrow-right-circle"></i>
+                Creating music and looking for my next performace
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="col-lg-6">
+          <div class="summary-box">
+            <h3 style="color: #1e4356; margin-bottom: 20px;">The Past</h3>
+            <ul style="list-style: none; padding-left: 0;">
+              <li>
+                <i class="bi bi-check-circle"></i>
+                2019 -> 2022 - Worked at my family owned dealership doing everything from cleaning cars, to buying them, to managing the inventory.
+              </li>
+              <li>
+                <i class="bi bi-check-circle"></i>
+                2022 - Created & grew Illini CogLab - a student run organization using data to learn more about psychology and how to apply it to real life situations
+              </li>
+              <li>
+                <i class="bi bi-check-circle"></i>
+                2023 - Interned at Arthur J. Gallagher, working on their in-house LLM project
+              </li>
+              <li>
+                <i class="bi bi-check-circle"></i>
+                2024 - Worked as a Data Science Intern at Cherokee Realty doing database creation and llm development
+              </li>
+              <li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <style>
     .why-us .container {
@@ -165,7 +263,7 @@
       <div class="gilarySection noPaddingTop">
         <div class="container">
           <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
               <div class="card">
                 <div class="card-img-container">
                   <img src="assets/img/gear2.png" class="img-fluid card-img" alt="">
@@ -184,7 +282,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 ms-auto">
+            <div class="col-lg-6 ms-auto" data-aos="fade-left" data-aos-delay="200">
               <div class="card">
                 <div class="card-img-container">
                   <img src="assets/img/getar.png" class="img-fluid card-img" alt="">
@@ -213,7 +311,7 @@
     <div class="gilarySection">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
             <div class="card grayColor">
               <div class="card-img-container">
                 <img src="assets/img/car.png" class="img-fluid card-img" alt="">
@@ -233,7 +331,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6 ms-auto">
+          <div class="col-lg-6 ms-auto" data-aos="fade-left" data-aos-delay="200">
             <div class="card">
               <div class="card-img-container">
                 <img src="assets/img/pred.jpeg" class="img-fluid card-img" alt="">
